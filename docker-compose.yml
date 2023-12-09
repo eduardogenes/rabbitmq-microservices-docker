@@ -28,9 +28,6 @@ services:
       - rabbitmq
     env_file:
       - ./ms-leitura/.env
-    environment:
-      - RABBITMQ_HOST=rabbitmq
-      - RABBITMQ_PORT=5672
       
 networks:
   default:

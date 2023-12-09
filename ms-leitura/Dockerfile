@@ -9,6 +9,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-EXPOSE 5001
-
 CMD ["python", "ms-leitura.py"]
